@@ -1,0 +1,47 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+
+
+            [7]         Root 7'dir.
+        [5]             5 < 7 olduğu için sola doğru yerleştirdik.
+    [1]                 1 < 7 ardından 1 < 5 olduğu için 5'ten sonra sola doğru yerleştirdik.
+
+
+            [7] 
+        [5]     [8]     8 > 7 olduğu için 7'nin sağına yerleştirdik.
+    [1]
+
+
+            [7] 
+        [5]     [8]    
+    [1]
+       [3]              3 < 7 ardından 3 < 5 ardından 3 > 1 olduğu için 1'den sonra sağa doğru yerleştirdik.
+
+
+            [7] 
+        [5]     [8]    
+    [1]   [6]          6 < 7 ardından 6 > 5 olduğundan dolayı 5'den sonra sağa doğru yerleştirdik.
+       [3]
+
+
+            [7] 
+        [5]     [8]    
+    [1]   [6]
+  [0] [3]               0 < 7 ardından 0 < 5 ardından 0 < 1 olduğundan dolayı 1'den sonra sola doğru yerleştirdik.
+
+            [7] 
+        [5]     [8]    
+    [1]   [6]      [9]  9 > 7 ardından 9 > 8 olduğu için 8'den sonra hemen sağa doğru yerleştirdik.
+  [0] [3]
+
+            [7] 
+        [5]     [8]    
+    [1]   [6]      [9]
+  [0] [3]
+        [4]             4 < 7 ardından 4 < 5 ardından 4 > 1 ardından 4 > 3 olduğu için 3'ten sonra sağa yerleştirdik.
+
+
+            [7] 
+        [5]     [8]    
+    [1]   [6]      [9]
+ [0]   [3]
+     [2] [4]            2 < 7 ardından 2 < 5 ardından 2 > 1 ardından 2 < 3 olduğu için 3'ten sonra sola yerleştirdik.
